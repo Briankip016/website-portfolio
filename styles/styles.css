@@ -1,0 +1,196 @@
+:root {
+    --primary-color: #FEFDFF;
+    --secondary-color: #EBF88B;
+    --background-color: #091122;
+    --text-color: #2c3e50;
+    --font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+img.logo {
+    width: 5rem;
+}
+
+nav {
+    display: flex !important;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: var(--background-color);
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 1s;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--);
+}
+
+.contact-button {
+    border: 1px solid var(--secondary-color);
+    padding: 0.2rem 2rem;
+    border-radius: 1rem;
+}
+
+.submit-button {
+    border: 1px solid var(--secondary-color);
+    padding: 0.2rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.submit-button button {
+    font-weight: 600;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: var(--secondary-color);
+}
+
+h1.text-center {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.yellow-text {
+    color: var(--secondary-color);
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.text-center {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+section.who-am-i {
+    padding: 2rem 4rem;
+    margin: 4rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.text-center {
+    width: 50vw;
+}
+
+.skill img {
+    width: 4rem;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 5rem;
+    gap: 1rem;
+}
+
+input {
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.interest img {
+    width: 4rem;
+}
+.interest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.interests-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects img {
+    width: 25rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+section {
+    border-bottom: #2c3e50 1px solid;
+    padding: 2rem 0;
+}
+
+.submit-button.download-btn {
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.submit-button.download-btn:hover {
+    background: var(--secondary-color);
+    color: var(--background-color);
+}
+.submit-button.download-btn button:hover {
+    background: var(--secondary-color);
+    color: var(--background-color);
+}

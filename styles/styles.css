@@ -88,6 +88,11 @@ h1.text-center {
     justify-content: center;
     align-items: center;
 }
+.about-section img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+ 
+}
 
 h2.text-center {
     text-align: center;
